@@ -75,6 +75,12 @@ like this.
 
 There are, of course, many other ways to do it.
 
+=head1 METHODS
+
+=head2 new
+
+Constructor for this object. Simply delegates to AudioFile::Info.
+
 =head1 SEE ALSO
 
 =over 4
