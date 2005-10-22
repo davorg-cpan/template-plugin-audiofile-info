@@ -11,7 +11,7 @@ require Exporter;
 
 our @ISA = qw(Exporter AudioFile::Info Template::Plugin);
 
-our $VERSION = '0.01';
+our $VERSION = sprintf "%d.%02d", '$Revision$ ' =~ /(\d+)\.(\d+)/;
 
 sub new {
   my ($class, $context, $file) = @_;
@@ -74,6 +74,12 @@ like this.
       or die $tt->error;
 
 There are, of course, many other ways to do it.
+
+=head1 METHODS
+
+=head2 new
+
+Constructor for this object. Simply delegates to AudioFile::Info.
 
 =head1 SEE ALSO
 
