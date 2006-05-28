@@ -72,6 +72,7 @@ like this.
 
     $tt->process('song.tt', { file => $_ })
       or die $tt->error;
+  }
 
 There are, of course, many other ways to do it.
 
