@@ -11,7 +11,7 @@ require Exporter;
 
 our @ISA = qw(Exporter AudioFile::Info Template::Plugin);
 
-our $VERSION = sprintf "%d.%02d", '$Revision$ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d", '$Revision$ ' =~ /(\d+)/;
 
 sub new {
   my ($class, $context, $file) = @_;
