@@ -1,4 +1,4 @@
-use Test::More tests => 2;
+use Test::More;
 use Template;
 
 my $t = <<'END';
@@ -27,5 +27,7 @@ foreach (qw/mp3 ogg/) {
     ext  => $_,
   }, \$result)
     or die $tt->error;
-  is($result, $out);
+  is($result, $out, "Tested $_");
 }
+
+done_testing;
