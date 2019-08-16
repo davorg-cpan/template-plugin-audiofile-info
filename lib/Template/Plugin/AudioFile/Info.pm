@@ -14,9 +14,9 @@ our @ISA = qw(Exporter AudioFile::Info Template::Plugin);
 our $VERSION = '1.5.0';
 
 sub new {
-  my ($class, $context, $file) = @_;
+  my ($class, $context, $file, $params) = @_;
 
-  my $self = $class->SUPER::new($file);
+  my $self = $class->SUPER::new($file, $params);
 
   return $self;
 }
