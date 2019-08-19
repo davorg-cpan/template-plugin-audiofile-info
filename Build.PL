@@ -7,7 +7,7 @@ my $build = Module::Build->new(
     requires => {
         perl            => '5.6.0',
         Template        => 0,
-        AudioFile::Info => 0,
+        AudioFile::Info => '2.0.1',
     },
     create_makefile_pl => 'traditional'
 );
