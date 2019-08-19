@@ -11,7 +11,7 @@ require Exporter;
 
 our @ISA = qw(Exporter AudioFile::Info Template::Plugin);
 
-our $VERSION = '1.5.0';
+our $VERSION = '1.5.1';
 
 sub new {
   my ($class, $context, $file, $params) = @_;
