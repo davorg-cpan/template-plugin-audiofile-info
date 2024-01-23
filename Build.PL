@@ -14,11 +14,11 @@ my $build = Module::Build->new(
         resources  => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/davorg/template-plugin-audiofile-info.git',
-                web  => 'https://github.com/davorg/template-plugin-audiofile-info',
+                url  => 'https://github.com/davorg-cpan/template-plugin-audiofile-info.git',
+                web  => 'https://github.com/davorg-cpan/template-plugin-audiofile-info',
             },
             bugtracker => {
-                web  => 'https://github.com/davorg/template-plugin-audiofile-info/issues',
+                web  => 'https://github.com/davorg-cpan/template-plugin-audiofile-info/issues',
             },
         },
     },
